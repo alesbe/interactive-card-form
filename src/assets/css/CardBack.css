@@ -1,0 +1,11 @@
+.card.back {
+    background-image: url("../images/bg-card-back.png");
+    top: 52%;
+    left: 20%;
+}
+
+.card-back__cvc {
+    font-size: 1.8vmin;
+    top: 45%;
+    left: 80%;
+}

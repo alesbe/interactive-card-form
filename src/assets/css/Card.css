@@ -1,0 +1,15 @@
+.card {
+    position: absolute;
+    aspect-ratio: 447 / 245;
+    background-size: cover;
+    width: 50vh;
+    border-radius: 2vmin;
+    -webkit-box-shadow: -5px 3px 116px -34px rgba(0,0,0,0.65);
+    -moz-box-shadow: -5px 3px 116px -34px rgba(0,0,0,0.65);
+    box-shadow: -5px 3px 116px -34px rgba(0,0,0,0.65);
+}
+
+.card > span {
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+}

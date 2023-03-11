@@ -1,0 +1,30 @@
+.card.front {
+    background-image: url("../images/bg-card-front.png");
+    top: 22%;
+    left: 15%;
+}
+
+.card-front__number {
+    font-size: 4vmin;
+    left: 5%;
+    top: 55%;
+}
+
+.card-front__logo {
+    position: absolute;
+    width: 15%;
+    top: 10%;
+    left: 5%;
+}
+
+.card-front__name {
+    font-size: 1.5vmin;
+    top: 85%;
+    left: 5%;
+}
+
+.card-front__date {
+    font-size: 1.5vmin;
+    top: 85%;
+    left: 85%;
+}

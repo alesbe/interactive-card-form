@@ -1,0 +1,55 @@
+.card-form {
+    width: 20rem;
+}
+
+.card-form__group-row {
+    display: flex;
+    margin-bottom: 0.8rem;
+    gap: 2rem;
+}
+
+.card-form__group-col {
+    width: 50%;
+}
+
+.card-form__double-input {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.form-label {
+    font-size: 0.65rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: hsl(278, 68%, 11%);
+}
+
+.form-input {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.8rem;
+    padding-left: 0.8rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+    border: 1.5px solid hsl(270, 3%, 87%);
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 100%;
+}
+
+.form-input:focus {
+    outline: none !important;
+    border: 1.5px solid hsl(278, 68%, 11%);
+}
+
+.form__submit-button {
+    width: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+    border: none;
+    background-color: hsl(278, 68%, 11%);
+    color: hsl(0, 0%, 100%);
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
